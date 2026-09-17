@@ -66,34 +66,34 @@ const education = [
 const projects = [
   {
     id: 1,
-    title: "Gestion de Tâches — SaaS Premium",
-    description: "Refonte complète de l'expérience utilisateur d'un gestionnaire de tâches, avec un tableau de bord Kanban interactif et un mode sombre.",
-    tags: ["Node.js", "Express", "MySQL", "EJS"],
-    link: "https://github.com/JosueNANTHAKUMAR/SaaS-Ready-Premium-Task-Manager",
+    title: "Gestionnaire de Tâches Kanban",
+    description: "Gestionnaire de tâches avec tableau de bord Kanban, authentification JWT et interface en mode sombre, développé avec Node.js, Express et MySQL.",
+    tags: ["Node.js", "Express", "MySQL", "JWT"],
+    link: "https://github.com/JosueNANTHAKUMAR/gestion-taches",
     icon: <Server className="w-6 h-6 text-indigo-600" />
   },
   {
     id: 2,
-    title: "Automatisation Mobile",
-    description: "Application d'automatisation SaaS avec interface Glassmorphism/Dark Mode et animations fluides, optimisée pour le Web et le Mobile.",
-    tags: ["Flutter", "Dart", "Python"],
-    link: "https://github.com/JosueNANTHAKUMAR/SaaS-Ready-Mobile-Automation-App",
+    title: "Centralize — Automatisation Mobile",
+    description: "Application mobile Flutter pour centraliser et automatiser des flux de tâches, avec une interface glassmorphism et navigation flottante.",
+    tags: ["Flutter", "Dart", "Glassmorphism"],
+    link: "https://github.com/JosueNANTHAKUMAR/centralize",
     icon: <Smartphone className="w-6 h-6 text-indigo-600" />
   },
   {
     id: 3,
-    title: "SaaS-Ready-Premium-Booking-Platform",
-    description: "Une solution de réservation complète pour les entreprises modernes.",
-    tags: ["JavaScript", "SaaS", "Booking"],
-    link: "https://github.com/JosueNANTHAKUMAR/SaaS-Ready-Premium-Booking-Platform",
+    title: "Private Driver — Réservation VTC",
+    description: "Plateforme de réservation VTC haut de gamme avec parcours de réservation multi-étapes et intégration Stripe.",
+    tags: ["JavaScript", "Stripe", "UX"],
+    link: "https://github.com/JosueNANTHAKUMAR/private-driver",
     icon: <Database className="w-6 h-6 text-indigo-600" />
   },
   {
     id: 4,
-    title: "Assistant IA SaaS",
-    description: "Assistant conversationnel SaaS avec intégration native de l'API Google Gemini via le Vercel AI SDK.",
+    title: "Assistant IA Conversationnel",
+    description: "Assistant conversationnel avec réponses en streaming et historique de conversation, propulsé par Gemini 2.5 Flash via le Vercel AI SDK.",
     tags: ["Next.js 14", "TypeScript", "Gemini API"],
-    link: "https://github.com/JosueNANTHAKUMAR/SaaS-Ready-AI-Assistant",
+    link: "https://github.com/JosueNANTHAKUMAR/assistant-ia",
     icon: <Cpu className="w-6 h-6 text-indigo-600" />
   }
 ];
