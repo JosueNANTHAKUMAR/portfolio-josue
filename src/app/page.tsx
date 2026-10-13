@@ -15,7 +15,8 @@ import {
   Cpu,
   Container,
   Sparkles,
-  GraduationCap
+  GraduationCap,
+  CalendarCheck
 } from "lucide-react";
 import Link from "next/link";
 
@@ -64,6 +65,14 @@ const education = [
 ];
 
 const projects = [
+  {
+    id: 0,
+    title: "Auto Full Services — Garage & lavage auto",
+    description: "Projet client en production : site et réservation en ligne pour un garage du Val-d'Oise. Créneaux en temps réel, e-mails de confirmation et de rappel, annulation en un clic, synchronisation Google Agenda, espace admin et SEO local.",
+    tags: ["React", "Supabase", "Vercel", "Google Calendar API", "SEO"],
+    link: "https://www.autofullservices.fr",
+    icon: <CalendarCheck className="w-6 h-6 text-indigo-600" />
+  },
   {
     id: 1,
     title: "Gestionnaire de Tâches Kanban",
